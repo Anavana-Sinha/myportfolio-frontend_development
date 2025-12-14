@@ -1,0 +1,173 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cdf1d0; 
+    color: #333; 
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Introductory Section Styles */
+.intro-section {
+    padding: 30px 20px;
+}
+
+.intro-section b {
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #007bff; 
+}
+
+.intro-section big {
+    display: block;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Profile Image Styles */
+#first {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block; 
+}
+
+/* Button Container and Button Styles */
+.button-container {
+    margin: 30px 0;
+}
+
+.outline-btn {
+    background-color: white;
+    color: #4CAF50; 
+    border: 2px solid #4CAF50; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.outline-btn:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.outline-btn a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+/* About Me Section Styles */
+.about-me-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    line-height: 1.6;
+}
+
+.about-me-section b {
+    display: block;
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* --- Bubble/Tag Specific Styles --- */
+
+.working-on-section {
+    margin: 40px 0;
+    padding: 30px 20px;
+    background-color: #e3f2fd; 
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.working-on-section h3 {
+    color: #007bff;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/* Container for the Bubbles */
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+
+/* Styling for the individual bubble/tag */
+.skill-bubble {
+    background-color: #fff;
+    color: #4CAF50; 
+    border: 2px solid #4CAF50; 
+    padding: 10px 20px;
+    border-radius: 25px; 
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.skill-bubble:hover {
+    background-color: #4CAF50; 
+    color: white;
+    transform: translateY(-2px); 
+}
+
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+.contact-section h4 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#second {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+footer {
+    color:#e3f2fd;
+    background-color: #4CAF50;
+}

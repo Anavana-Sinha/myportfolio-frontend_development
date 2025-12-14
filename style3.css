@@ -1,0 +1,58 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    text-align: center;
+    min-height: 100vh; 
+    font-size: 20px;
+    /* Blended Background Styling */
+    
+    background-image: linear-gradient(rgba(205, 241, 208, 0.7), rgba(205, 241, 208, 0.7)), 
+                      url('https://jooinn.com/images/coding-and-programming-computer-science-and-it.jpg');
+    
+    /* Fallback background color */
+    background-color: #cdf1d0;
+
+    /* Background image properties */
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+/* Header/Title Styles */
+h1 {
+    color: #fcfcfc; 
+    padding: 20px;
+    background-color: #4CAF50;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+    border-radius: 8px;
+}
+
+/* Paragraph and Text Styles */
+p {
+    padding: 15px;
+    
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    line-height: 1.6;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+big {
+    font-size: 1.1em;
+}
+
+/* Hide the image that was used as the background */
+#image_1 {
+    display: none;
+}
+
+footer {
+    color:#e3f2fd;
+    background-color: #4CAF50;
+}
