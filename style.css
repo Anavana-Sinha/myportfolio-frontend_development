@@ -56,8 +56,6 @@ header h1 {
     margin: 40px 0;
     padding: 30px 20px;
     background-color: #e3f2fd; 
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
 }
 
 .working-on-section h3 {
@@ -70,8 +68,7 @@ header h1 {
 /* Container for the Bubbles */
 .bubble-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
+    justify-content: center; 
     gap: 15px; 
 }
 
@@ -103,4 +100,5 @@ footer {
     color:#e3f2fd;
     background-color: #4CAF50;
 }
+
 
