@@ -12,9 +12,6 @@ body {
     background-image: linear-gradient(rgba(205, 241, 208, 0.7), rgba(205, 241, 208, 0.7)), 
                       url('https://jooinn.com/images/coding-and-programming-computer-science-and-it.jpg');
     
-    /* Fallback background color */
-    background-color: #cdf1d0;
-
     /* Background image properties */
     background-size: cover; 
     background-position: center center; 
@@ -43,12 +40,9 @@ p {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-big {
-    font-size: 1.1em;
-}
-
 /* Hide the image that was used as the background */
 #image_1 {
     display: none;
 }
+
 
